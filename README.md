@@ -1,68 +1,68 @@
-# RemoteMetrics Landing Page
+# TaskMon Landing Page
 
-Modern ve responsive bir SaaS landing page. RemoteMetrics uygulaması için showcase amaçlı tasarlanmış, en son web teknolojileri kullanılarak geliştirilmiş bir front-end projesidir.
+A modern and responsive SaaS landing page. This is a front-end project designed as a showcase for the TaskMon application, developed using the latest web technologies.
 
-## Özellikler
+## Features
 
-- **Modern Tasarım**: Minimalist ve temiz UI tasarımı
-- **Responsive Yapı**: Tüm cihazlarda sorunsuz görüntüleme
-- **Animasyonlar**: Framer Motion ile akıcı geçişler ve animasyonlar
-- **Erişilebilirlik**: WCAG standartlarına uygun, ARIA etiketleri ile geliştirilmiş
-- **Dark Mode Desteği**: next-themes ile koyu tema desteği
-- **SEO Optimizasyonu**: Meta etiketleri ile arama motoru optimizasyonu
-- **Modüler Yapı**: Clean code prensiplerine uygun, modüler bileşen yapısı
-- **Performans Optimizasyonu**: Lazy loading ve diğer optimizasyon teknikleri
-- **Error Boundary**: Hata yönetimi için error boundary bileşenleri
+- **Modern Design**: Minimalist and clean UI design
+- **Responsive Structure**: Flawless display on all devices
+- **Animations**: Smooth transitions and animations with Framer Motion
+- **Accessibility**: Developed in compliance with WCAG standards, enhanced with ARIA labels
+- **Dark Mode Support**: Dark theme support with next-themes
+- **SEO Optimization**: Search engine optimization with meta tags
+- **Modular Structure**: Modular component structure following clean code principles
+- **Performance Optimization**: Lazy loading and other optimization techniques
+- **Error Boundary**: Error boundary components for error management
 
-## Teknoloji Stack
+## Technology Stack
 
 - **Framework**: Next.js 15
-- **Dil**: TypeScript
-- **UI Bileşenleri**: Shadcn/ui
-- **Stil**: Tailwind CSS
-- **Animasyonlar**: Framer Motion
-- **İkonlar**: Lucide Icons
-- **Tema Desteği**: next-themes
-- **Kod Kalitesi**: ESLint, Prettier
+- **Language**: TypeScript
+- **UI Components**: Shadcn/ui
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide Icons
+- **Theme Support**: next-themes
+- **Code Quality**: ESLint, Prettier
 
-## Proje Yapısı
+## Project Structure
 
 ```
 app/
 ├── components/
-│   ├── layout/          # Layout bileşenleri (Header, Footer)
-│   ├── sections/        # Sayfa bölümleri (Hero, Features, vb.)
-│   └── ui/              # Genel UI bileşenleri
-├── data/                # Statik veriler
+│   ├── layout/          # Layout components (Header, Footer)
+│   ├── sections/        # Page sections (Hero, Features, etc.)
+│   └── ui/              # General UI components
+├── data/                # Static data
 ├── hooks/               # Custom hooks
-├── styles/              # CSS ve animasyon stilleri
-├── types/               # TypeScript tip tanımlamaları
-├── utils/               # Yardımcı fonksiyonlar
-└── page.tsx             # Ana sayfa
+├── styles/              # CSS and animation styles
+├── types/               # TypeScript type definitions
+├── utils/               # Helper functions
+└── page.tsx             # Main page
 ```
 
-## Başlangıç
+## Getting Started
 
-Projeyi lokal ortamınızda çalıştırmak için:
+To run the project in your local environment:
 
 ```bash
-# Bağımlılıkları yükleyin
+# Install dependencies
 npm install
 
-# Geliştirme sunucusunu başlatın
+# Start the development server
 npm run dev
 ```
 
-Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresine giderek uygulamayı görüntüleyebilirsiniz.
+You can view the application by going to [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Geliştirme İlkeleri
+## Development Principles
 
-- **Bileşen Bazlı Geliştirme**: Her bileşen kendi dosyasında, tek bir sorumluluk ilkesiyle geliştirilmiştir
-- **TypeScript ile Tip Güvenliği**: Tüm props ve state'ler için tip tanımlamaları
-- **Erişilebilirlik Öncelikli**: ARIA etiketleri ve semantik HTML kullanılmıştır
-- **Responsive Tasarım**: Mobile-first yaklaşımla tüm ekran boyutlarına uyumlu
-- **Performans Optimizasyonu**: React best practices ile optimize edilmiş kod
+- **Component-Based Development**: Each component is developed in its own file with a single responsibility principle
+- **Type Safety with TypeScript**: Type definitions for all props and states
+- **Accessibility First**: ARIA labels and semantic HTML have been used
+- **Responsive Design**: Compatible with all screen sizes using a mobile-first approach
+- **Performance Optimization**: Code optimized with React best practices
 
-## Lisans
+## License
 
-MIT 
+MIT

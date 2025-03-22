@@ -2,16 +2,16 @@
 
 import { Suspense } from "react"
 import { ErrorBoundary } from "@/app/utils/error-boundary"
-import { Header } from "@/app/components/layout/Header"
-import { Footer } from "@/app/components/layout/Footer"
-import { HeroSection } from "@/app/components/sections/HeroSection"
-import { FeaturesSection } from "@/app/components/sections/FeaturesSection"
-import { TestimonialsSection } from "@/app/components/sections/TestimonialsSection"
-import { PricingSection } from "@/app/components/sections/PricingSection"
-import { ContactSection } from "@/app/components/sections/ContactSection"
+import { Header } from "@/components/layout/Header"
+import { Footer } from "@/components/layout/Footer"
+import { HeroSection } from "@/components/sections/HeroSection"
+import { FeaturesSection } from "@/components/sections/FeaturesSection"
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection"
+import { PricingSection } from "@/components/sections/PricingSection"
+import { ContactSection } from "@/components/sections/ContactSection"
 
-// Stiller
-import "@/app/styles/animations.css"
+// Styles
+import "@/styles/animations.css"
 
 export default function HomePage() {
   return (
